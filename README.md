@@ -9,7 +9,7 @@ Contact: Luca.Canali@cern.ch
 used to run code at the startup of Spark executors. 
 This feature is available in Spark 2.4.x. It can be useful for extending monitoring and configuration. Use as in the following example:
   ```
-  /bin/spark-shell --master yarn --jars <path>/sparkexecutorplugins_2.12-0.1.jar \
+  /bin/spark-shell --master yarn --jars <path>/sparkexecutorplugins_2.11-0.1.jar \
   --conf spark.executor.plugins=ch.cern.ExecutorPluginJava.RunOSCommandPlugin 
   ```
 
