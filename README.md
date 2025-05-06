@@ -1,7 +1,7 @@
 # SparkExecutorPlugins for Spark 2.4
 Code with examples of Spark Executor Plugins for Spark 2.4.x  
 Spark 3.0.0 is expected to have an extended and incompatible API,
-[see Spark 3.0.0 examples](https://github.com/cerndb/SparkExecutorPlugins)  
+[see Spark 3.0.0 examples](https://github.com/cerndb/SparkPlugins)  
 Contact: Luca.Canali@cern.ch
 
 **Build** with: `sbt +package`  
